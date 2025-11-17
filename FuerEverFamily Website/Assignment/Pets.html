@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Pets - FurEver Family</title>
+    <meta name="description" content="Browse our available pets for adoption. Find your perfect furry companion at FurEver Family.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🐾 FurEver Family 🐾</h1>
+        <ul class="nav-menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="About.html">About</a></li>
+    <li><a href="Pets.html">Pets</a></li>
+    <li><a href="SuccessStories.html">Success Stories</a></li>
+    <li><a href="Donation.html">Donate</a></li>
+    <li><a href="Volunteer.html">Volunteer</a></li>
+    <li><a href="Contact.html">Contact Us</a></li>
+</ul>
+    </header>
+
+    <section class="pets-page">
+        <h1>Find Your Forever Friend</h1>
+        
+        <div class="search-filter">
+            <input type="text" id="pet-search" placeholder="Search pets by name...">
+            <select id="pet-type-filter">
+                <option value="all">All Pets</option>
+                <option value="dog">Dogs</option>
+                <option value="cat">Cats</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <div class="gallery-container">
+
+            <div class="gallery-item" data-type="dog">
+                <img src="Img/2puppies.jpg" alt="Zeus the puppy">
+                <h3>Zeus</h3>
+                <p>German Shepherd Mix • 3 months</p>
+                <p>Friendly and energetic puppy looking for an active family. Loves playing fetch and going for walks.</p>
+                <button class="adopt-btn" data-pet="Zeus">Learn More</button>
+            </div>
+            
+            <div class="gallery-item" data-type="dog">
+                <img src="Img/Holdpuppy.jpg" alt="Bolt the puppy">
+                <h3>Bolt</h3>
+                <p>Golden Retriever • 4 months</p>
+                <p>Playful and loving puppy who enjoys cuddles and playtime. Great with children and other pets.</p>
+                <button class="adopt-btn" data-pet="Bolt">Learn More</button>
+            </div>
+            
+            <div class="gallery-item" data-type="cat">
+                <img src="Img/Manykittens.jpg" alt="Ginger kittens">
+                <h3>Ginger & Marmalade</h3>
+                <p>Domestic Short Hair • 2 months</p>
+                <p>Brother and sister duo who love to play together. Must be adopted together.</p>
+                <button class="adopt-btn" data-pet="Ginger Kittens">Learn More</button>
+            </div>
+            
+            <div class="gallery-item" data-type="cat">
+                <img src="Img/2kittens.jpg" alt="Luna the kitten">
+                <h3>Luna</h3>
+                <p>Siamese Mix • 3 months</p>
+                <p>Curious and affectionate kitten with beautiful blue eyes. Loves climbing and exploring.</p>
+                <button class="adopt-btn" data-pet="Luna">Learn More</button>
+            </div>
+            
+            <div class="gallery-item" data-type="cat">
+                <img src="Img/cutekitty.jpg" alt="Milo the cat">
+                <h3>Milo</h3>
+                <p>Tabby Cat • 1 year</p>
+                <p>Gentle and calm cat who enjoys quiet environments. Perfect for apartment living.</p>
+                <button class="adopt-btn" data-pet="Milo">Learn More</button>
+            </div>
+            
+            <div class="gallery-item" data-type="dog">
+                <img src="Img/Puppy.jpg" alt="Max the puppy">
+                <h3>Max</h3>
+                <p>Labrador Mix • 5 months</p>
+                <p>Smart and trainable puppy who loves learning new tricks. Very food motivated!</p>
+                <button class="adopt-btn" data-pet="Max">Learn More</button>
+            </div>          
+            
+            <!-- New Dogs -->
+            <div class="gallery-item" data-type="dog">
+    <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1024&q=80" alt="Border Collie dog">
+    <h3>Roxy</h3>
+    <p>Border Collie • 2 years</p>
+    <p>Highly intelligent and energetic. Needs an active owner who can provide mental stimulation.</p>
+    <button class="adopt-btn" data-pet="Roxy">Learn More</button>
+</div>
+            
+            <div class="gallery-item" data-type="dog">
+                <img src="https://cdn.pixabay.com/photo/2016/07/15/15/55/dachshund-1519374_1280.jpg" alt="Beagle dog">
+                <h3>Buddy</h3>
+                <p>Beagle • 1 year</p>
+                <p>Friendly and curious with an excellent nose. Loves following scents and making new friends.</p>
+                <button class="adopt-btn" data-pet="Buddy">Learn More</button>
+            </div>
+            
+            <div class="gallery-item" data-type="dog">
+    <img src="https://images.unsplash.com/photo-1560807707-8cc77767d783?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1024&q=80" alt="Dalmatian dog">
+    <h3>Daisy</h3>
+    <p>Dalmatian • 6 months</p>
+    <p>Energetic and spotted beauty. Loves running and needs plenty of exercise.</p>
+    <button class="adopt-btn" data-pet="Daisy">Learn More</button>
+</div>
+
+            <div class="gallery-item" data-type="dog">
+                <img src="https://cdn.pixabay.com/photo/2016/02/19/15/46/dog-1210559_1280.jpg" alt="Golden Retriever dog">
+                <h3>Charlie</h3>
+                <p>Golden Retriever • 1 year</p>
+                <p>Friendly and loyal companion. Great with families and loves swimming.</p>
+                <button class="adopt-btn" data-pet="Charlie">Learn More</button>
+            </div>
+
+            <!-- New Cats -->
+            <div class="gallery-item" data-type="cat">
+                <img src="https://cdn.pixabay.com/photo/2017/11/09/21/41/cat-2934720_1280.jpg" alt="Black cat">
+                <h3>Shadow</h3>
+                <p>Black Domestic • 2 years</p>
+                <p>Mysterious and independent. Enjoys quiet corners and evening cuddles.</p>
+                <button class="adopt-btn" data-pet="Shadow">Learn More</button>
+            </div>
+            
+            <div class="gallery-item" data-type="cat">
+                <img src="https://cdn.pixabay.com/photo/2014/04/13/20/49/cat-323262_1280.jpg" alt="Orange tabby cat">
+                <h3>Simba</h3>
+                <p>Orange Tabby • 8 months</p>
+                <p>Playful and adventurous. Loves climbing cat trees and chasing toys.</p>
+                <button class="adopt-btn" data-pet="Simba">Learn More</button>
+            </div>
+            
+            <div class="gallery-item" data-type="cat">
+                <img src="https://cdn.pixabay.com/photo/2017/11/14/13/06/kitty-2948404_1280.jpg" alt="Calico cat">
+                <h3>Cleo</h3>
+                <p>Calico • 1.5 years</p>
+                <p>Beautiful and sassy. Has unique markings and a big personality.</p>
+                <button class="adopt-btn" data-pet="Cleo">Learn More</button>
+            </div>
+            
+            <div class="gallery-item" data-type="cat">
+                <img src="https://cdn.pixabay.com/photo/2015/11/16/22/14/cat-1046544_1280.jpg" alt="Tuxedo cat">
+                <h3>Oliver</h3>
+                <p>Tuxedo • 2 years</p>
+                <p>Gentleman in a tuxedo. Very polite and loves chin scratches.</p>
+                <button class="adopt-btn" data-pet="Oliver">Learn More</button>
+            </div>
+
+            <!-- Other Pets -->
+           <div class="gallery-item" data-type="other">
+    <img src="https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1024&q=80" alt="Rabbit">
+    <h3>Cotton</h3>
+    <p>Rabbit • 1 year</p>
+    <p>Fluffy and friendly bunny. Litter trained and enjoys fresh vegetables.</p>
+    <button class="adopt-btn" data-pet="Cotton">Learn More</button>
+</div>
+            
+ <div class="gallery-item" data-type="other">
+    <img src="Img/pigs.jpg" alt="Guinea pigs">
+    <h3>Peanut & Butter</h3>
+    <p>Guinea Pigs • 6 months</p>
+    <p>Adorable pair that must stay together. Love wheeking for treats!</p>
+    <button class="adopt-btn" data-pet="Peanut & Butter">Learn More</button>
+</div>
+
+   <div class="gallery-item" data-type="other">
+    <img src="Img/hamster.jpg" alt="Hamster">
+    <h3>Nibbles</h3>
+    <p>Hamster • 4 months</p>
+    <p>Tiny and energetic. Loves running on his wheel and hiding seeds.</p>
+    <button class="adopt-btn" data-pet="Nibbles">Learn More</button>
+</div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption"></div>
+    </div>
+
+    <!-- Adoption Modal -->
+    <div id="adoption-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Adopt <span id="modal-pet-name"></span></h2>
+            <p>Thank you for your interest in adopting! Please fill out this form and we'll contact you within 24 hours.</p>
+            <form id="adoption-form">
+                <div class="form-group">
+                    <label for="adopter-name">Full Name:</label>
+                    <input type="text" id="adopter-name" name="adopter-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="adopter-email">Email:</label>
+                    <input type="email" id="adopter-email" name="adopter-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="adopter-phone">Phone:</label>
+                    <input type="tel" id="adopter-phone" name="adopter-phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="adoption-questions">Questions about <span id="modal-pet-name-2"></span>:</label>
+                    <textarea id="adoption-questions" name="adoption-questions" placeholder="Any specific questions about this pet?"></textarea>
+                </div>
+                <button type="submit" class="submit-button">Submit Adoption Inquiry</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>🐾 FurEver Family &COPY;&trade; 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
