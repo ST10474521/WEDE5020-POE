@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate - FurEver Family</title>
+    <meta name="description" content="Support FurEver Family's mission to rescue and rehome pets. Your donations help save lives.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🐾 FurEver Family 🐾</h1>
+        <ul class="nav-menu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="About.html">About</a></li>
+    <li><a href="Pets.html">Pets</a></li>
+    <li><a href="SuccessStories.html">Success Stories</a></li>
+    <li><a href="Donation.html">Donate</a></li>
+    <li><a href="Volunteer.html">Volunteer</a></li>
+    <li><a href="Contact.html">Contact Us</a></li>
+</ul>
+    </header>
+
+    <section class="donation-section">
+        <h2>Support Our Mission</h2>
+        <p>Your generous donations help us rescue, care for, and find loving homes for abandoned pets. Every contribution makes a difference!</p>
+        
+        <div class="donation-options">
+            <div class="donation-option">
+                <h3>One-Time Donation</h3>
+                <div class="donation-buttons">
+                    <button class="donation-amount" data-amount="50">R50</button>
+                    <button class="donation-amount" data-amount="150">R150</button>
+                    <button class="donation-amount" data-amount="300">R300</button>
+                    <input type="number" id="custom-amount" placeholder="Custom amount (R)">
+                </div>
+            </div>
+            <div class="donation-option">
+                <h3>Monthly Support</h3>
+                <div class="donation-buttons">
+                    <button class="donation-amount" data-amount="500">R500/month</button>
+                    <button class="donation-amount" data-amount="800">R800/month</button>
+                    <button class="donation-amount" data-amount="1000">R1000/month</button>
+                </div>
+            </div>
+        </div>
+
+        <form id="donation-form" action="#" method="post">
+            <h3>Payment Information</h3>
+            <div class="form-group">
+                <label for="donor-name">Full Name:</label>
+                <input type="text" id="donor-name" name="donor-name" required>
+            </div>
+            <div class="form-group">
+                <label for="donor-email">Email:</label>
+                <input type="email" id="donor-email" name="donor-email" required>
+            </div>
+            <div class="form-group">
+                <label for="card-number">Card Number:</label>
+                <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9012 3456" required maxlength="19">
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="expiry-date">Expiry Date:</label>
+                    <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+                </div>
+                <div class="form-group">
+                    <label for="cvv">CVV:</label>
+                    <input type="text" id="cvv" name="cvv" required maxlength="4" placeholder="123">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="donation-message">Message (optional):</label>
+                <textarea id="donation-message" name="donation-message" placeholder="Any special instructions or messages..."></textarea>
+            </div>
+            <button type="submit" class="donate-button">Donate Now</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>🐾 FurEver Family &COPY;&trade; 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
