@@ -1,5 +1,0 @@
-# New: robots.txt
-User-agent: *
-Allow: /
-
-Sitemap: https://fureverfamily.example.com/sitemap.xml
